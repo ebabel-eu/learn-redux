@@ -5,6 +5,8 @@ Learn how to use Redux with React.js
 
 ```
 npm install
+npm install -g webpack
+npm install -g webpack-dev-server
 ```
 
 ## Build the source code once
@@ -30,3 +32,11 @@ npm test
 ```
 npm run watch
 ```
+
+## Run locally
+
+```
+webpack-dev-server --content-base dist/
+```
+
+Browse to http://localhost:8080
