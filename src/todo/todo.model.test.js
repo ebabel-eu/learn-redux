@@ -1,6 +1,6 @@
 import chai from 'chai';
 
-import Todo from './todo.js';
+import Todo from './todo.model.js';
 
 describe('todo', () => {
 
